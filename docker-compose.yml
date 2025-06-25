@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   service_1:
-    image: parvezshaik645/service_1
+    image: parvezshaik645/service_1:v1
     expose: 
       - "8001"
     networks: 
@@ -15,7 +15,7 @@ services:
      start_period: 5s
   
   service_2:
-    image: parvezshaik645/service_2
+    image: parvezshaik645/service_2:v1
     expose:
       - "8002"
     networks: 
