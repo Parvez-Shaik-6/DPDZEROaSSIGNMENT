@@ -78,7 +78,9 @@ use the following url to run compose setup
 
 
 curl -O https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/URL/docker-compose.yml
-docker compose up --build
+docker-compose -f docker-compose.yml up
+
+
 
 
 
