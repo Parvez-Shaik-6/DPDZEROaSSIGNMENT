@@ -78,4 +78,3 @@ These endpoints are automatically tested by Docker's health check system.
 # https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/refs/heads/URL/docker-compose.yml
 
 
-**use the following url to build the setup**
