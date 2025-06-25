@@ -76,8 +76,9 @@ These endpoints are automatically tested by Docker's health check system.
 
 use the following url to run compose setup
 
-https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/refs/heads/URL/docker-compose.yml
 
-docker-compose -f https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/refs/heads/URL/docker-compose.yml
+curl -O https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/URL/docker-compose.yml
+docker compose up --build
+
 
 
