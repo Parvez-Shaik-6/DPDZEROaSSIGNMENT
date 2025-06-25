@@ -34,7 +34,7 @@ services:
 
 
   nginx:
-    image: nginx:latest
+    image: nginx:1.23
     ports: 
       - "8000:80"
     volumes:
