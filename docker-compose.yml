@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   service_1:
-    build: ./service_1
+    build: parvezshaik645/service_1
     expose: 
       - "8001"
     networks: 
@@ -15,7 +15,7 @@ services:
      start_period: 5s
   
   service_2:
-    build: ./service_2
+    build: parvezshaik645/service_2
     expose:
       - "8002"
     networks: 
