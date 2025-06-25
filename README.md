@@ -6,22 +6,31 @@ This project sets up **two backend services** (`service_1` in Go and `service_2`
 
 ## 📁 Folder Structure
 
+```text
+.
 ├── customscripts/
-│ └── msmtpSetup/ # Optional email setup scripts
+│   └── msmtpSetup/
+│       ├── .msmtprc
+│       └── check.sh
 ├── nginx/
-│ ├── nginx.conf # NGINX reverse proxy config
-│ └── logs/ # NGINX logs
-├── service_1/ # Go backend service
-│ ├── main.go
-│ ├── Dockerfile
-│ └── README.md
-├── service_2/ # Python backend (e.g. Flask)
-│ ├── app.py
-│ ├── Dockerfile
-│ ├── pyproject.toml
-│ └── README.md
-├── docker-compose.yml
-└── README.md # This file
+│   ├── nginx.conf             # Reverse proxy configuration
+│   └── logs/                  # NGINX log directory
+├── service_1/
+│   ├── main.go                # Go app entry point
+│   ├── Dockerfile             # Dockerfile for service_1
+│   ├── .dockerignore
+│   └── README.md
+├── service_2/
+│   ├── app.py                 # Flask app
+│   ├── Dockerfile             # Dockerfile for service_2
+│   ├── pyproject.toml
+│   ├── uv.lock
+│   ├── .dockerignore
+│   └── README.md
+├── .gitignore
+├── docker-compose.yml         # Compose file to run all services
+└── README.md                  # You're reading it
+
 
 
 ---
