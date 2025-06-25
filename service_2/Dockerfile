@@ -6,7 +6,7 @@ RUN pip install uv
 
 COPY pyproject.toml uv.lock ./
 
-# Install ALL dependencies from lock file (default behavior)
+
 RUN uv sync
 
 COPY . .
