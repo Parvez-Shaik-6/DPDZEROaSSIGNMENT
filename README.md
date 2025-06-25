@@ -73,3 +73,6 @@ service_1: GET http://localhost:8001/ping
 service_2: GET http://localhost:8002/ping
 
 These endpoints are automatically tested by Docker's health check system.
+
+**use the following url to build the setup**
+ https://raw.githubusercontent.com/Parvez-Shaik-6/DPDZEROaSSIGNMENT/refs/heads/URL/docker-compose.yml
